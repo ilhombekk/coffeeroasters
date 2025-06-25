@@ -30,6 +30,8 @@
 
 :root {
     --text-color: #333;
+    --accent-color-green: #0A775F;
+    --outline-color:var(--accent-color-green)
 }
 
 html {
@@ -64,13 +66,65 @@ img {
 
 .container {
     width: 100%;
-    max-width: 1200px;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-left: auto;
 } 
 
 .main-content {
     flex-grow: 1;
+}
+
+/* site-header-wrapper  */
+.site-header-hero-wrapper {
+    background-image: url(../img/fon-rasmi.jpg);
+}
+/* site-header  */
+
+.site-header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.site-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.site-header-logo-link {
+    text-decoration: none;
+    display: flex;
+}
+.site-header-logo-img {
+    width: 235px;
+    height: 24px;
+    object-fit: contain;
+}
+*:focus {
+    outline: 2px dashed var(--accent-color-green);
+    outline-offset: 3px;
+}
+.sitenav-list {
+    display: flex;
+    padding: 0;
+    margin: o;
+    list-style: none;
+}
+.sitenav-item:not(:last-child) {
+    margin-right: 40px;
+}
+.sitenav-link {
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:var(--text-color)
+}
+.sitenav-link:hover {
+    color: var(--accent-color-green);
 }
