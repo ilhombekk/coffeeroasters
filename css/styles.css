@@ -117,6 +117,7 @@ img {
     margin-right: 40px;
 }
 .sitenav-link {
+    white-space: nowrap;
     text-decoration: none;
     display: block;
     font-size: 12px;
@@ -124,7 +125,61 @@ img {
     font-weight: bold;
     text-transform: uppercase;
     color:var(--text-color)
+    
 }
 .sitenav-link:hover {
     color: var(--accent-color-green);
+}
+/* hero  */
+.hero {
+}
+.hero-container {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+}
+.container {
+}
+.hero-info-wrappers {
+    width: 100%;
+    max-width: 730px;
+    padding-top: 116px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 116px;
+}
+.hero-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 64px;
+    line-height: normal;
+    color:#000
+}
+.hero-text {
+    margin-top: 0;
+    margin-bottom: 34px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.button {
+    display: inline-block;
+    padding: 16px 24px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+.button-green {
+    background-color: var(--accent-color-green);
+    color: #fff;
+}
+.hero-img {
+    width: 710px;
+    height: 696px;
 }
