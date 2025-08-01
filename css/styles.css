@@ -140,8 +140,7 @@ img {
     padding-left: 0;
     padding-right: 0;
 }
-.container {
-}
+
 .hero-info-wrappers {
     width: 100%;
     max-width: 730px;
@@ -184,4 +183,62 @@ img {
 .hero-img {
     width: 710px;
     height: 696px;
+}
+
+.index-section {
+    padding: 50px 143px;
+    background-color: #f8f8f2;
+    background-image: url("../img/fonjpg.jpg");
+}
+.index-heading {
+    margin-top: 0;
+    margin-bottom: 80px;
+    font-size: 50px;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+.index-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.index-item {
+    display: flex;
+    align-items: center;
+}
+
+.index-item:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.index-img {
+    flex-shrink: 0;
+    width: 450px;
+    height: 375px;
+    object-fit: cover;
+}
+.index-info {
+    flex-grow: 1;
+}
+.index-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 48px;
+    line-height: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.index-text {
+    margin: 0;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.index-text:not(:last-child){
+    margin-bottom: 10px;
+}
+.index-item:nth-child(even).index-info {
+    padding-right: 117px;
 }
