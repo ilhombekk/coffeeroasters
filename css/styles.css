@@ -242,3 +242,139 @@ img {
 .index-item:nth-child(even).index-info {
     padding-right: 117px;
 }
+
+/* index-features  */
+.index-faeatures {
+margin-bottom: 30px;
+}
+.index-features-inner {
+padding: 50px 30px;
+background-image: url("../img/img.bj.jpg");
+background-size: 100% 700px;
+background-repeat: no-repeat;
+}
+.index-features-heading {
+margin-top: 0;
+margin-bottom: 10px;
+font-size: 50px;
+line-height: normal;
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+}
+.index-features-lead {
+max-width: 580px;
+margin-top: 0;
+margin-bottom: 80px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+color: #fff;
+}
+.index-features-list {
+display: flex;
+flex-wrap: wrap;
+padding: 0;
+margin: 0;
+margin-left: -20px;
+list-style: none;
+}
+.index-features-item{
+width: 433px;
+margin-left: 20px;
+}
+.index-features-img {
+width: 433px;
+height: 500px;
+margin-bottom: 28px;
+object-fit: cover;
+}
+.index-features-item-heading {
+margin-top: 0;
+margin-bottom: 10px;
+font-size: 30px;
+line-height: normal;
+font-weight: 500;
+text-transform: uppercase;
+}
+.index-features-item-text {
+margin: 0;
+font-size: 18px;
+line-height: 28px;
+}
+/* HOW IT WORKS  */
+
+
+.how-it-works-inner {
+padding: 50px 30px;
+background-color: #0A775F;
+background-image: url(../img/Group-img.jpg);
+text-align: center;
+}
+.how-it-works-heading {
+margin-top: 0;
+margin-bottom: 80px;
+font-size: 50px;
+line-height: normal;
+color: #fff;
+text-align: center;
+text-transform: uppercase;
+}
+.how-it-works-list {
+display: flex;
+margin-bottom: 60px;
+padding: 0;
+margin: 0;
+list-style: none;
+margin-left: -20px;
+text-align: left;
+}
+.how-it-works-item {
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+}
+.how-it-works-item::before {
+width: 60px;
+height: 60px;
+border: 4px solid #C99B67;
+margin-bottom: 20px;
+background-color: #F8F8F2;
+content: "";
+}
+.how-it-works-info {
+flex-grow: 1;
+padding: 20px 20px 40px;
+background-color: #F8F8F2;
+}
+.how-it-works-step-title {
+max-width: 250px;
+margin-top: 0;
+margin-bottom: 10px;
+font-size: 40px;
+line-height: normal;
+font-weight: 500;
+text-transform: uppercase;
+}
+.how-it-works-step-text {
+margin: 0;
+font-size: 18px;
+line-height: 28px;
+}
+.button {
+background-color: #c49a6c; /* och jigarrang */
+color: white;              /* matn rangi */
+padding: 10px 20px;
+border: none;
+border-radius: 30px;       /* tugmani dumaloq qilish uchun */
+font-weight: bold;
+letter-spacing: 1px;
+cursor: pointer;
+font-family: sans-serif;
+text-transform: uppercase;
+}
+.how-it-works-actions {
+display: flex;
+justify-content: center; /* gorizontali markaz */
+padding-top: 50px;       /* yuqoridan masofa */
+}
