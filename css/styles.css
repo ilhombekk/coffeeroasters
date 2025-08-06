@@ -129,6 +129,11 @@ img {
     color:var(--text-color)
     
 }
+
+.sitenav-medium-font .sitenav-link {
+    font-size: 16px;
+    line-height: normal;
+}
 .sitenav-link:hover {
     color: var(--accent-color-green);
 }
@@ -377,4 +382,43 @@ text-transform: uppercase;
 display: flex;
 justify-content: center; /* gorizontali markaz */
 padding-top: 50px;       /* yuqoridan masofa */
+}
+
+.site-footer {
+background-color: #F3D7B7;
+padding-top: 65px;
+padding-bottom: 65px;
+}
+.site-footer-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.site-footer-logo-link {
+display: flex;
+}
+.site-footer-logo-img {
+flex-shrink: 0;
+width: 235px;
+height: 24px;
+object-fit: contain;
+}
+
+.socials {
+display: flex;
+align-items: center;
+padding: 0;
+margin: 0;
+list-style: none;
+}
+.socials-item:not(:last-child) {
+margin-right: 30px;
+}
+.socials-link {
+display: flex;
+color: #333;
+}
+.socials-link:hover {
+color: green;
 }
